@@ -4,7 +4,8 @@ using Microsoft.EntityFrameworkCore;
 
 namespace SuperHeroAPI.Controllers
 {
-    [Route("api/[controller]")]
+    //[Route("api/[controller]")]
+    [Route("[controller]/[Action]")]
     [ApiController]
     public class SuperHeroController : ControllerBase
     {
@@ -27,13 +28,13 @@ namespace SuperHeroAPI.Controllers
         }
 
         [HttpGet]
-        public async Task<ActionResult<List<SuperHero>>> Get()
+        public async Task<ActionResult<List<SuperHero>>> GetAllHero()
         {
             return Ok(await _context.SuperHeroes.ToListAsync());
         }
 
         [HttpGet("{id}")]
-        public async Task<ActionResult<SuperHero>> Get(int id)
+        public async Task<ActionResult<SuperHero>> GetHeroById(int id)
         {
             var hero = await _context.SuperHeroes.FindAsync(id);
             if (hero == null)
@@ -69,7 +70,7 @@ namespace SuperHeroAPI.Controllers
         }
 
         [HttpDelete("{id}")]
-        public async Task<ActionResult<List<SuperHero>>> Delete(int id)
+        public async Task<ActionResult<List<SuperHero>>> DeleteHero(int id)
         {
             var dbHero = await _context.SuperHeroes.FindAsync(id);
             if (dbHero == null)
