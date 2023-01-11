@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "Re34eD9LfUabGCiAEu98bM3v4chsfqeOO2uGetAB3ZPkd6kFspUNHrMowgliaAKTpSH8JbXNKzp7z37sK805xw==",
+  "dgSpecHash": "ZuhDvZLHzTNbEDuNr/HxOwth+epvEd36yIwSPsDiC0Mzsdxuml4FHaCLNqYk/uU37MWJ/porPfRTwEHRhMNmcQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\fmasm\\Downloads\\ASP .NET CORE\\SuperHeroAPI\\SuperHeroAPI\\SuperHeroAPI.csproj",
   "expectedPackageFiles": [
@@ -14,6 +14,7 @@
     "C:\\Users\\fmasm\\.nuget\\packages\\microsoft.entityframeworkcore.design\\6.0.0\\microsoft.entityframeworkcore.design.6.0.0.nupkg.sha512",
     "C:\\Users\\fmasm\\.nuget\\packages\\microsoft.entityframeworkcore.relational\\6.0.0\\microsoft.entityframeworkcore.relational.6.0.0.nupkg.sha512",
     "C:\\Users\\fmasm\\.nuget\\packages\\microsoft.entityframeworkcore.sqlserver\\6.0.0\\microsoft.entityframeworkcore.sqlserver.6.0.0.nupkg.sha512",
+    "C:\\Users\\fmasm\\.nuget\\packages\\microsoft.entityframeworkcore.tools\\6.0.0\\microsoft.entityframeworkcore.tools.6.0.0.nupkg.sha512",
     "C:\\Users\\fmasm\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
     "C:\\Users\\fmasm\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\6.0.0\\microsoft.extensions.caching.abstractions.6.0.0.nupkg.sha512",
     "C:\\Users\\fmasm\\.nuget\\packages\\microsoft.extensions.caching.memory\\6.0.0\\microsoft.extensions.caching.memory.6.0.0.nupkg.sha512",

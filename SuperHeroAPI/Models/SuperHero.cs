@@ -1,4 +1,4 @@
-﻿namespace SuperHeroAPI
+﻿namespace SuperHeroAPI.Models
 {
     public class SuperHero
     {
@@ -7,5 +7,10 @@
         public string FirstName { get; set; } = string.Empty;
         public string LastName { get; set; } = string.Empty;
         public string Place { get; set; } = string.Empty;
+        
+        // Relation with Table Teams
+        public int? TeamsId { get; set; }
+
+        public Team?  Teams { get; set; }
     }
 }

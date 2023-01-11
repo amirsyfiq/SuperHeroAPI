@@ -1,4 +1,5 @@
-﻿using SuperHeroAPI.Service.Dependency;
+﻿using SuperHeroAPI.Models;
+using SuperHeroAPI.Service.Dependency;
 
 namespace SuperHeroAPI.Service
 {

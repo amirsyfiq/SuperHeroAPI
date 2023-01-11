@@ -1,4 +1,5 @@
 ﻿using Microsoft.Extensions.Diagnostics.HealthChecks;
+using SuperHeroAPI.Models;
 
 namespace SuperHeroAPI.Service.Dependency
 {
